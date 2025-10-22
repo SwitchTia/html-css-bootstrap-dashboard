@@ -36,38 +36,55 @@
             <h1> Nuovo Libro</h1>
             <div class="row pt-2">
                 <!-- Section 1 -->
+                <!-- nome  -->
                 <div class="col-12 col-lg-6 pt-2">
                     <div class="mb-3">
                         <label class="form-label" for="nome">Nome autore</label>
-                        <input class="form-control" id="nome" type="text" autocomplete="off" required
-                            minlength="1" />
+                        <input class="form-control" id="nome" type="text" autocomplete="off"
+                            placeholder="Inserisci il nome del autore" required minlength="1" />
                     </div>
                 </div>
+                <!-- cognome -->
                 <div class="col-12 col-lg-6 pt-2">
                     <div class="mb-3">
                         <label class="form-label" for="cognome">Cognome autore</label>
-                        <input class="form-control" id="cognome" type="text" autocomplete="off" required
-                            minlength="1" />
+                        <input class="form-control" id="cognome" type="text" autocomplete="off"
+                            placeholder="Inserisci il cognome del autore" required minlength="1" />
                     </div>
                 </div>
                 <!-- Section 2 -->
+                <!-- Titolo -->
                 <div class="col-12 pt-2">
                     <div class="mb-3">
                         <label class="form-label" for="titolo">Titolo</label>
-                        <input class="form-control" id="titolo" type="text" autocomplete="off" required
-                            minlength="5" />
+                        <input class="form-control" id="titolo" type="text" autocomplete="off"
+                            placeholder="Inserisci il titolo del libro" required minlength="5" />
                     </div>
-                    <a class="" href="">Titolo versione italiana</a>
+                    <div class="form-text" id="basic-addon4">Titolo versione italiana</div>
                 </div>
                 <!-- Section 3 -->
+                <!-- Genere -->
                 <div class="col-12 col-lg-4 pt-2">
-                    <div>Genere input, label</div>
+                    <div>
+                        <label class="form-label" for="genre">Genere</label>
+                        <select class="form-select" name="" id="genre">
+                            <option value="1">Scegli un genere</option>
+                            <option value="2">Romance</option>
+                            <option value="3">Science fiction</option>
+                            <option value="4">Poetry</option>
+                        </select>
+                    </div>
                 </div>
                 <div class="col-12 col-lg-4 pt-2">
                     <div>Anno di pubblicazione input, label</div>
                 </div>
                 <div class="col-12 col-lg-4 pt-2">
                     <div>ISBN# input, label</div>
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-sm">
                 </div>
 
                 <hr>
@@ -77,7 +94,18 @@
                         <!-- input card -->
                     </div>
 
+                    <div class="input-group mb-3">
+                        <div class="input-group-text border-0">
+                            <input class="form-check-input mt-0 " type="checkbox" value=""
+                                aria-label="Checkbox for following text input">
+                        </div>
+                        <input type="text" class="form-control border-0" aria-label="Text input with checkbox">
+                    </div>
+
                     <button class="btn btn-primary">Aggiungi Libro</button>
+
+
+
             </div>
         </form>
     </main>
