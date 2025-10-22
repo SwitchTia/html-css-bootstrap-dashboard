@@ -32,19 +32,31 @@
     </header>
 
     <main class="pt-5">
-        <div class="container pt-5">
+        <form action="" class="container pt-5">
             <h1> Nuovo Libro</h1>
             <div class="row pt-2">
                 <!-- Section 1 -->
                 <div class="col-12 col-lg-6 pt-2">
-                    <div> Nome input label </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="username">Nome autore</label>
+                        <input class="form-control" id="username" type="text" autocomplete="off" required
+                            minlength="1" />
+                    </div>
                 </div>
                 <div class="col-12 col-lg-6 pt-2">
-                    <div>Cognome input label</div>
+                    <div class="mb-3">
+                        <label class="form-label" for="username">Cognome autore</label>
+                        <input class="form-control" id="username" type="text" autocomplete="off" required
+                            minlength="1" />
+                    </div>
                 </div>
                 <!-- Section 2 -->
                 <div class="col-12 pt-2">
-                    <div>Titolo input label</div>
+                    <div class="mb-3">
+                        <label class="form-label" for="username">Titolo</label>
+                        <input class="form-control" id="username" type="text" autocomplete="off" required
+                            minlength="5" />
+                    </div>
                     <a class="" href="">Titolo versione italiana</a>
                 </div>
                 <!-- Section 3 -->
@@ -61,13 +73,13 @@
                 <hr>
 
                 <h5>Note</h>
-                <div>
-                    <!-- input card -->
-                </div>
+                    <div>
+                        <!-- input card -->
+                    </div>
 
-                <button class="btn btn-primary">Aggiungi Libro</button>
-
+                    <button class="btn btn-primary">Aggiungi Libro</button>
             </div>
+        </form>
     </main>
 </body>
 
