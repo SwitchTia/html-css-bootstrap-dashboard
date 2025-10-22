@@ -93,7 +93,7 @@
                 </td>
 
                 <td>
-                  <a href="" class="btn btn-outline-secondary ">
+                  <a href="" class="btn btn-outline-secondary btn-sm ">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                       class="bi bi-pencil" viewBox="0 0 16 16">
                       <path
@@ -101,7 +101,7 @@
                     </svg>
                   </a>
 
-                  <a href="" class="btn  btn-outline-secondary ">
+                  <a href="" class="btn  btn-outline-secondary btn-sm">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                       class="bi bi-trash" viewBox="0 0 16 16">
                       <path
@@ -438,77 +438,77 @@
 
       <div class="col-12 col-lg-4">
 
-        <div class="card-todo  ">
-          <div class="card mb-3">
-            <div class="card-body p-0">
-              <div class="card-header">
-                <h3>To do</h3>
-                <ul class="list-group">
-                  <li class="list-group-item">
-                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
-                    <label class="form-check-label" for="firstCheckbox">First checkbox</label>
-                  </li>
-                  <li class="list-group-item">
-                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
-                    <label class="form-check-label" for="secondCheckbox">Second checkbox</label>
-                  </li>
-                  <li class="list-group-item">
-                    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
-                    <label class="form-check-label" for="thirdCheckbox">Third checkbox</label>
-                  </li>
-                </ul>
+        <div class="card mb-4">
+          <div class="card-header">
+            <h2>Todo</h2>
+          </div>
+          <div class="card-body">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox" />
+                <label class="form-check-label" for="firstCheckbox">Chiamare segreteria</label>
+              </li>
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox" />
+                <label class="form-check-label" for="secondCheckbox">Mandare avvisi prestiti scaduti</label>
+              </li>
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox" />
+                <label class="form-check-label" for="thirdCheckbox">Ordinare nuovi libri</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="card-faq d-lg-flex">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <div class="px-4 bg-light">
+                <h3>F.A.Q.</h3>
+              </div>
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Come aggiungere un nuovo libro?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+
+                </div>
               </div>
             </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Come posso accedere all'anagrafica utenti?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
 
-
-            <div class="card-faq d-lg-flex">
-              <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                  <div class="px-4 bg-light">
-                    <h3>F.A.Q.</h3>
-                  </div>
-                  <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Come aggiungere un nuovo libro?
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-
-                    </div>
-                  </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Come posso accedere all'anagrafica utenti?
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Posso usare questa dashboard da mobile?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
 
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Posso usare questa dashboard da mobile?
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
   </main>
 
   <footer>
