@@ -79,23 +79,25 @@
                 <div class="col-12 col-lg-4 mb-3">
                     <div>
                         <label class="form-label" for="year">Anno di Pubblicazione</label>
-                        <input class="form-control" type="year" id="year" minlength="4"
+                        <input class="form-control" type="number" id="year" minlength="4"
                             placeholder="Inserisci l'anno" />
                     </div>
                 </div>
                 <!-- ISBN -->
-                <div class="col-12 col-lg-4 pt-2 mb-5">
+                <div class="col-12 col-lg-4 mb-5">
                     <div>
-                        <label class="form-label form-l" for="isbn">ISBN#</label>
-                        <input class="form-control" type="year" id="isnb" minlength="2"
+                        <label class="form-label" for="isbn">ISBN#</label>
+                        <input class="form-control" type="number" id="isbn" minlength="2"
                             placeholder="Inserisci il codice ISBN#" />
                     </div>
                 </div>
 
                 <hr>
 
-                <h5>Note</h>
-
+                <div class="mb-3">
+                    <h5 >Note</h>
+                </div>
+                
                 <div class="input-group">
                     <span class="input-group-text">Inserisci eventuali note sul libro</span>
                     <textarea class="form-control" aria-label="With textarea"></textarea>
@@ -103,16 +105,14 @@
 
                 <div class="input-group mb-3">
                     <div class="input-group-text border-0 bg-white">
-                        <input class="form-check-input mt-0 " type="checkbox" value=""
+                        <input class="form-check-input mt-0" type="checkbox" value=""
                             aria-label="Checkbox for following text input">
                     </div>
                     <input type="text" placeholder="Disponibile anche in digitale" class="form-control border-0"
                         aria-label="Text input with checkbox">
-                </div>
-
-                <button class="btn btn-primary ">Aggiungi Libro
-                </button>
+                </div>  
             </div>
+            <button class="btn btn-primary ">Aggiungi Libro</button>
         </form>
     </main>
 </body>
