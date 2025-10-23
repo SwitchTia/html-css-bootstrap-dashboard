@@ -67,7 +67,7 @@
                 <div class="col-12 col-lg-4 mb-3">
                     <div>
                         <label class="form-label" for="genre">Genere</label>
-                        <select class="form-select" name="" id="genre">
+                        <select class="form-select disabled" name="" id="genre">
                             <option value="1">Scegli un genere</option>
                             <option value="2">Romance</option>
                             <option value="3">Science fiction</option>
@@ -95,24 +95,21 @@
                 <hr>
 
                 <div class="mb-3">
-                    <h5 >Note</h>
-                </div>
-                
-                <div class="input-group">
-                    <span class="input-group-text">Inserisci eventuali note sul libro</span>
-                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                    <h5>Note</h>
                 </div>
 
-                <div class="input-group mb-3">
-                    <div class="input-group-text border-0 bg-white">
-                        <input class="form-check-input mt-0" type="checkbox" value=""
-                            aria-label="Checkbox for following text input">
-                    </div>
-                    <input type="text" placeholder="Disponibile anche in digitale" class="form-control border-0"
-                        aria-label="Text input with checkbox">
-                </div>  
+                <div class="col-12 mb-3">
+                    <label class="form-label" for="text-area">ISBN#</label>
+                    <textarea name="" placeholder="Inserisci il codice ISBN#" class="form-control"
+                        id="text-area "></textarea>
+                </div>
+
+                <div class="mb-2">
+                    <input class="form-check-input" type="checkbox" name="" id="digitale" />
+                    <label class="form-label" for="digitale">Disponibile anche in digitale</label>
+                </div>
             </div>
-            <button class="btn btn-primary ">Aggiungi Libro</button>
+            <button type="submit" class="btn btn-primary ">Aggiungi Libro</button>
         </form>
     </main>
 </body>
